@@ -1,0 +1,9 @@
+name: VeinMiner
+version: '${project.version}'
+main: net.aerh.veinminer.VeinMinerPlugin
+api-version: '1.20'
+authors: [Aerh]
+commands:
+  veinminer:
+    description: Main VeinMiner plugin command
+    permission: veinminer.command

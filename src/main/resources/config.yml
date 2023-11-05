@@ -1,0 +1,33 @@
+# If vein mining is enabled
+enabled: true
+
+# The max radius is the maximum amount of blocks that can be mined at once
+# There is a hard limit of 100 blocks
+max-radius: 5
+
+# The cooldown between vein mining is in milliseconds
+cooldown: 5000
+
+# Tools that are allowed to be used for vein mining
+# See https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html for a list of materials
+allowed-tools:
+  - WOODEN_PICKAXE
+  - STONE_PICKAXE
+  - IRON_PICKAXE
+  - GOLDEN_PICKAXE
+  - DIAMOND_PICKAXE
+  - NETHERITE_PICKAXE
+
+# Materials that are allowed to be vein mined
+# See https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html for a list of materials
+allowed-materials:
+  - DIAMOND_ORE
+  - ANCIENT_DEBRIS
+  - NETHER_GOLD_ORE
+  - NETHER_QUARTZ_ORE
+  - EMERALD_ORE
+  - GOLD_ORE
+  - IRON_ORE
+  - COAL_ORE
+  - LAPIS_ORE
+  - REDSTONE_ORE
